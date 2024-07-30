@@ -1,0 +1,16 @@
+{
+  "$id": "sub3.schema.json",
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "type": "object",
+  "allOf": [
+    { "$ref": "base.schema.json" },
+    {
+      "properties": {
+        "name": {
+          "type": "string",
+          "const": "sub3"
+        }
+      }
+    }
+  ]
+}
